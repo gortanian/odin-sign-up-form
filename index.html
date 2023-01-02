@@ -28,20 +28,38 @@
             <p>You <em>know</em> you want to.</p>
         </div>
         <form class="sign-up" action="" method="post">
-            <div>
+            <div class="main-flex-container">
                 <h1>Let's do this!</h1>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" id="first-name">
-                <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" id="last-name">
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email">
-                <label for="phone-number">PHONE NUMBER</label>
-                <input type="tel" name="phone-number" id="phone-number">
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password">
-                <label for="password-confirm">CONFIRM PASSWORD</label>
-                <input type="password" name="password-confirm" id="password-confirm">
+                <div class="flex-container">
+                    <div class="item-container">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name">
+                    </div>
+                    <div class="item-container">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <div class="item-container">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="item-container">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number">
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <div class="item-container">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="item-container">
+                        <label for="password-confirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="password-confirm" id="password-confirm">
+                    </div>
+                </div>
             </div>
             <div>
                 <button class="submit" type="submit">Create Account</button>
